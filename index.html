@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Endurance ! Home</title>
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Boxicon CDN -->
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+	<!-- OwlCarousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+	<!-- Custom Style -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#scroll-spy">
+	<!-- Header Start-->
+	<header id="header">
+		<div class="top_bar">
+			<div class="container">
+				<div class="lf_side">
+					<i class="bx bxs-phone"></i>
+					<a href="tel:7001787467">7001-787-467</a>
+				</div>
+				<div class="midle">
+					<i class="bx bxs-envelope"></i>
+					<a href="mailto:gym@gmail.com">Gym@gmail.com</a>
+				</div>
+				<div class="rt_side">
+					<p>open hours: Monday - Sunday 8:00AM - :PM</p>
+				</div>
+			</div>
+		</div>
+		<div class="btm_header" id="mobileMenu">
+			<div class="container">
+				<div class="nav" id="scroll-spy">
+					<a href="#" class="logo">ENDURANCE</a>
+					<ul>
+						<li><a href="#" class="nav-link active" onclick="toggle()">Home</a></li>
+						<li><a href="#about" class="nav-link" onclick="toggle()">About</a></li>
+						<li><a href="#service" class="nav-link" onclick="toggle()">Service</a></li>
+						<li><a href="#pricing" class="nav-link" onclick="toggle()">Pricing</a></li>
+						<li><a href="#plans" class="nav-link" onclick="toggle()">plans</a></li>
+						<li><a href="#blog" class="nav-link" onclick="toggle()">Blog</a></li>
+						<li><a href="#" class="nav-link" onclick="toggle()">Contact Us</a></li>
+					</ul>
+					<div class="toggle" onclick="toggle()"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End-->
+
+	<!-- Banner Start-->
+	<div id="banner">
+		<div class="slider owl-carousel owl-theme">
+			<div class="item">
+				<div class="img-block">
+					<img src="images/hero-img.jpg" alt="hero-img" />
+				</div>
+				<div class="desc">
+					<h1>Crossfit for <span>everyone</span></h1>
+		        	<h5>shape your body</h5>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img-block">
+					<img src="images/hero-img.jpg" alt="hero-img" />
+				</div>
+				<div class="desc">
+					<h1>Crossfit for <span>everyone</span></h1>
+		        	<h5>shape your body</h5>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img-block">
+					<img src="images/hero-img.jpg" alt="hero-img" />
+				</div>
+				<div class="desc">
+					<h1>Crossfit for <span>everyone</span></h1>
+		        	<h5>shape your body</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner End-->
+
+	<!-- Welcome Start-->
+	<section class="welcome_block" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="lf_side">
+						<img src="images/video-img.jpg" alt="video-img" />
+						<button class="play-btn" data-bs-toggle="modal" data-bs-target="#modalBox"><i class='bx bx-play'></i></button>
+						<!-- Modal -->
+						<div class="modal fade" id="modalBox">
+					  		<div class="modal-dialog modal-dialog-centered">
+					    		<div class="modal-content">
+					      			<div class="modal-body">
+					        			<button type="button" class="close" data-bs-dismiss="modal">
+					          				<span>&times;</span>
+					        			</button>
+					        			<iframe src="https://www.youtube.com/embed/3zl1_XGgDVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					      			</div>
+					    		</div>
+					  		</div>
+						</div>
+						<div class="items">
+							<div class="item">
+								<img src="images/wlcm-slider-1.jpg" onclick="currentSlide(1)" alt="wlcm-slider-1" />
+							</div>
+							<div class="item">
+								<img src="images/wlcm-slider-2.jpg" onclick="currentSlide(2)" alt="wlcm-slider-2" />
+							</div>
+							<div class="item">
+								<img src="images/wlcm-slider-3.jpg" onclick="currentSlide(3)" alt="wlcm-slider-3" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 rt_side">
+					<div class="heading">
+						<h4>WELCOME</h4>
+						<h2>WELCOME TO <span class="color">ENDURANCE</span> <span>CROSSFIT GYM</span></h2>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</p>
+						<a href="#" class="accent_btn">join us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Welcome End-->
+
+	<!-- Service Start-->
+	<section class="service_block" id="service">
+		<div class="container">
+			<div class="heading">
+				<h4>SERVICES</h4>
+				<h2>KICK YOUR <span class="color">FEET</span> UP</h2>
+			</div>
+			<div class="row items">
+				<div class="col-lg-3 col-md-6 item">
+					<div class="img-block">
+						<img src="images/gole.png" alt="gole" />
+					</div>
+					<div class="text-block">
+						<h3>ANALYZE YOUR GOAL</h3>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 item">
+					<div class="img-block">
+						<img src="images/work-hard.png" alt="gole" />
+					</div>
+					<div class="text-block">
+						<h3>WORK HARD ON IT</h3>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 item">
+					<div class="img-block">
+						<img src="images/performance.png" alt="gole" />
+					</div>
+					<div class="text-block">
+						<h3>IMPROVE YOUR PERFORMANCE</h3>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 item">
+					<div class="img-block">
+						<img src="images/perfact-body.png" alt="gole" />
+					</div>
+					<div class="text-block">
+						<h3>ACHIEVE YOUR PERFECT BODY</h3>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Service End-->
+
+	<!-- Membership Start-->
+	<section class="membership_block" id="pricing">
+		<div class="container">
+			<div class="heading">
+				<h4>GYM CLASSES</h4>
+				<h2>WHAT YOU GET FORM <span class="color">ENDURANCE MEMBERSHIP</span></h2>
+				<p>A small river named Duden flows their place and supplies  necessary regelialia.</p>
+			</div>
+			<div class="slideBox owl-carousel owl-theme">
+				<div class="item">
+					<img src="images/fat-burning.jpg" alt="fat-burning" />
+					<div class="text-block">
+						<h3>fat<span class="color">burning</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/weight-dragging.jpg" alt="weight-dragging" />
+					<div class="text-block">
+						<h3>weight<span class="color">dragging</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/boxing-training.jpg" alt="boxing-training" />
+					<div class="text-block">
+						<h3>Boxing<span class="color">training</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/muscle-sculpe.jpg" alt="muscle-sculpe" />
+					<div class="text-block">
+						<h3>Muscle<span class="color">Sculpe</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/fat-burning.jpg" alt="fat-burning" />
+					<div class="text-block">
+						<h3>fat<span class="color">burning</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/weight-dragging.jpg" alt="weight-dragging" />
+					<div class="text-block">
+						<h3>weight<span class="color">dragging</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/boxing-training.jpg" alt="boxing-training" />
+					<div class="text-block">
+						<h3>Boxing<span class="color">training</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/muscle-sculpe.jpg" alt="muscle-sculpe" />
+					<div class="text-block">
+						<h3>Muscle<span class="color">Sculpe</span></h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="images/fat-burning.jpg" alt="fat-burning" />
+					<div class="text-block">
+						<h3>fat<span class="color">burning</span></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Membership End-->
+
+	<!-- plans-block Start-->
+	<section class="plans_block" id="plans">
+		<div class="container">
+			<div class="heading">
+				<h4>PRICING TABLES</h4>
+				<h2><span class="color">MEMBERSHIP</span> PLANS</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="card">
+						<h3>ONE DAY TRAINING</h3>
+						<h4><sup>$</sup> 7</h4>
+						<p>100% free. Forever</p>
+						<div class="btn">
+							<a href="#" class="accent_btn">Get Started</a>
+						</div>
+						<h3>ENJOY ALL THE FEATURES</h3>
+						<p class="pra">Onetime Access To All Club Group Trainer Book A Group Class Fitness Orientation</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card">
+						<h3>PAY EVERY MONTH</h3>
+						<h4><sup>$</sup> 65</h4>
+						<p>All features are included</p>
+						<div class="btn">
+							<a href="#" class="accent_btn">Get Started</a>
+						</div>
+						<h3>ENJOY ALL THE FEATURES</h3>
+						<p class="pra">Onetime Access To All Club Group Trainer Book A Group Class Fitness Orientation</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="card">
+						<h3>1 YEAR MEMBERSHIP</h3>
+						<h4><sup>$</sup> 125</h4>
+						<p>All features are included</p>
+						<div class="btn">
+							<a href="#" class="accent_btn">Get Started</a>
+						</div>
+						<h3>Group Classes</h3>
+						<p class="pra">Onetime Access To All Club Group Trainer Book A Group Class Fitness Orientation</p>
+					</div>
+				</div>
+			</div>
+			<div class="btm-section">
+				<div class="row items">
+					<div class="col-lg-4 col-md-6 item">
+						<img src="images/equipment.png" alt="equipment" />
+						<div class="text-block">
+							<h3>1K+ EQUIPMENT</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 item">
+						<img src="images/open.png" alt="open" />
+						<div class="text-block">
+							<h3>OPEN</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 item">
+						<img src="images/supply.png" alt="supply" />
+						<div class="text-block">
+							<h3>FOOD SUPPLY</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- plans-block End-->
+
+	<!-- Testimonies Start-->
+	<section class="testimonies_block">
+		<div class="container">
+			<div class="heading">
+				<h4>TESTIMONIES</h4>
+				<h2>SUCCESSFUL <span class="color">STORIES</span></h2>
+			</div>
+			<div class="testimonies_slide owl-carousel owl-theme">
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-1.png" alt="testimonies-1" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-2.png" alt="testimonies-2" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-1.png" alt="testimonies-3" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-2.png" alt="testimonies-2" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-1.png" alt="testimonies-1" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-2.png" alt="testimonies-2" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="img-block">
+						<img src="images/testimonies-1.png" alt="testimonies-1" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Testimonies End-->
+
+	<!-- Calculate Start-->
+	<section class="calculate_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="left-side">
+						<img src="images/calculate.jpg" alt="calculate" />
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="rt_side">
+						<div class="heading">
+							<h2>Calculate Your BMI</h2>
+						</div>
+						<form>
+							<div class="row">
+								<label for="height">HEIGHT</label>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" id="height" class="form-control" placeholder="feet" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" id="height" class="form-control" placeholder="inches">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<label for="weight">WEIGHT</label>
+									<div class="form-group">
+										<input type="text" id="weight" class="form-control" placeholder="lbs">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<label for="age">AGE</label>
+									<div class="form-group">
+										<input type="number" id="age" class="form-control" placeholder="yrs" required>
+									</div>
+								</div>
+							</div>
+							<div class="btns-group">
+								<button class="accent_btn">Calculate</button>
+								<button class="accent_btn">BMI</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Calculate End-->
+
+	<!-- blog-block Start-->
+	<section class="blog_block" id="blog">
+		<div class="container">
+			<div class="heading">
+				<h4>ARTICLES</h4>
+				<h2>RECENT <span class="color">BLOG</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="card">
+						<img src="images/blog-1.jpg" alt="blog-1" />
+						<div class="card-body">
+							<h5>JULY 01, 2021 <b>ADMIN 3</b></h5>
+							<h3>YOUNG WOMEN DOING ABDOMINAL</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card">
+						<img src="images/blog-2.jpg" alt="blog-2" />
+						<div class="card-body">
+							<h5>JULY 01, 2021 <b>ADMIN 3</b></h5>
+							<h3>YOUNG WOMEN DOING ABDOMINAL</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="card">
+						<img src="images/blog-3.jpg" alt="blog-3" />
+						<div class="card-body">
+							<h5>JULY 01, 2021 <b>ADMIN 3</b></h5>
+							<h3>YOUNG WOMEN DOING ABDOMINAL</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- blog-block End-->
+
+	<!-- count-block Start-->
+	<section class="count_block">
+		<div class="container">
+			<div class="row items">
+				<div class="col-md-3 col-6 item">
+					<h3 class="count">5000</h3>
+					<P>Happy Customers</P>
+				</div>
+				<div class="col-md-3 col-6 item">
+					<h3 class="count">4560</h3>
+					<P>Perfect Bodies</P>
+				</div>
+				<div class="col-md-3 col-6 item">
+					<h3 class="count">570</h3>
+					<P>Working Hours</P>
+				</div>
+				<div class="col-md-3 col-6 item">
+					<h3 class="count">900</h3>
+					<P>Success Stories</P>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- count-block End-->
+
+	<!-- Footer Start-->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 box">
+					<h3 class="title">ABOUT US</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="socal-link">
+						<a href="#"><i class="bx bxl-facebook"></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 box">
+					<h3 class="title">RECENT BLOG</h3>
+						<div class="flex-box">
+							<div class="img-block">
+							<img src="images/fotr-blg-1.jpg" alt="fotr-blg-1" />
+						</div>
+						<div class="text-block">
+							<p class="active">Even the all-powerful Pointing has no control about</p>
+							<p class="date">July 01, 2019  Admin  19</p>
+						</div>
+					</div>
+					<div class="flex-box">
+							<div class="img-block">
+							<img src="images/fotr-blg-2.jpg" alt="fotr-blg-2" />
+						</div>
+						<div class="text-block">
+							<p>Even the all-powerful Pointing has no control about</p>
+							<p class="date">July 01, 2019  Admin  19</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 box">
+					<h3 class="title">ABOUT US</h3>
+					<ul>
+						<li>Boost Your Body</li>
+						<li>Achieve Your Goal</li>
+						<li>Analyze Your Goal</li>
+						<li>Improve Your</li>
+						<li>Performance</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 box">
+					<h3 class="title">HAVE A QUESTIONS?</h3>
+					<ul>
+						<li><i class='bx bxs-home' ></i><a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a></li>
+						<li><i class='bx bxs-phone'></i><a href="tel:+23923929210">+2 392 3929 210</a></li>
+						<li><i class='bx bxs-envelope' ></i><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Copy_right Start-->
+			<div class="copy_right">
+				<p>Copyright ©2019 All rights reserved | This template is made with  by Endurance</p>
+			</div>
+			<!-- Copy_right End-->
+		</div>
+	</section>
+	<!-- Footer End-->
+
+	<!-- back2Top Start-->
+    <a id="back2Top" href="#"><i class='bx bxs-chevron-up-circle'></i></a>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/myScript.js"></script>
+</body>
+</html>

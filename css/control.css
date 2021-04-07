@@ -1,0 +1,120 @@
+/*Goole Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;&display=swap');
+/*Fonts*/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff'),
+        url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular_1.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular_1.woff') format('woff'),
+        url('../fonts/BebasNeue-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*=== Root ====*/
+:root{
+	/*== font ==*/
+	--bebasneue_font: 'Bebas Neue';
+	--roboto_font: 'Roboto', sans-serif;
+	/*== color ==*/
+	--accent_color: #21bde3;
+	--secondary_color: ;
+	/*== effacts ==*/
+	--trans: all 0.5s ease-in-out;
+}
+
+body{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	line-height: 0;
+}
+
+a,
+a:active,
+a:visited,
+a:hover{
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul,
+ol,
+li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section{
+	padding: 100px 0;
+	margin: 0;
+}
+
+.heading h4{
+	font-family: var(--bebasneue_font);
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: var(--accent_color);
+	text-transform: uppercase;
+}
+
+.heading h2{
+	font-family: var(--bebasneue_font);
+	font-size: 68px;
+	line-height: 72px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.heading p{
+	font-family: var(--roboto_font);
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #000;
+	margin: 0;
+}
+
+span.color{
+	color: var(--accent_color);
+}
+
+.accent_btn{
+	font-family: var(--bebasneue_font);
+	font-size: 30px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	color: #fff;
+	background-color: var(--accent_color);
+	display: inline-block;
+	border-radius: 35px;
+	padding: 18px 42px;
+	margin: 25px 0 0 0;
+}
+
+.accent_btn:hover{
+	color: #fff;
+}
+
+/*=== End ====*/
